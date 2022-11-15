@@ -160,7 +160,7 @@ div.code-container {
 
         position: absolute;
         left: unquote("#{$i}%");
-        animation: drop $duration linear $delay infinite;
+        animation: drop $duration linear $delay;
       }
     }
   }

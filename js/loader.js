@@ -45,7 +45,31 @@ function createRain(container) {
 
         column.className = `code-column column-size-${size} code-${i}`;
         container.appendChild(column);
+        
     }
 }
 
-createRain(document.getElementById('matrix-code'));
+function fadeOut(){
+    gsap.to('#matrix-code', {
+        opacity: 0,
+        duration: 2,
+
+    })
+}
+
+function createTransition () {
+    let container = document.getElementById('matrix-code')
+    let wrapper = container.parentElement
+    createRain(container);
+    setTimeout(() => {
+        fadeOut()
+        setTimeout(() => {
+            wrapper.removeChild(container)
+        }, 2000)
+    }, 3000
+    )
+    
+}
+
+createTransition()
+
