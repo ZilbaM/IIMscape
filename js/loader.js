@@ -64,7 +64,7 @@ function createTransition () {
     setTimeout(() => {
         fadeOut()
         setTimeout(() => {
-            wrapper.removeChild(container)
+            wrapper.style.display = 'none'
         }, 2000)
     }, 3000
     )
