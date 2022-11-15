@@ -22,15 +22,16 @@
 
 .fill-blank{
   box-sizing: border-box;
-  display: block;
+  display: inline-flex;
   //width: 100%;
   border: 0;
   border-bottom: 2px solid grey;
-  padding: 0.25rem 0.5rem;
-  color: $color-primary;
+  padding: 0.25rem 0;
+  color: white;
   background: transparent;
   transition: all 0.3s ease;
   font-family: $font-primary;
+  font-size: 1.2rem;
 
   &:hover{
     border-bottom: 2px solid $color-primary;
@@ -42,6 +43,10 @@
     outline: 0;
     border-bottom: 2px solid $color-primary;
 
+  }
+
+  option{
+    color: black;
   }
 
 }
