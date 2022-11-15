@@ -1,0 +1,62 @@
+#intro {
+    width: 100vw;
+    height: 100vh;
+    padding: 5rem 2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+
+    .logo{
+        position:absolute;
+        margin:auto;
+        transform: translateX(-50px);
+        transform: translateY(-50vh);
+        height: 50vh;
+        opacity: 0
+    }
+    .key {
+        color: #F08208;
+        background: transparent;
+        position:absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 2.5rem;
+        cursor: pointer;
+        opacity: 0.6;
+        &:hover{
+            opacity: 1;
+        }
+    }
+    #password {
+        width: 30vw;
+        height: 50%;
+        position: absolute;
+        border: 2px solid $color-primary;
+        right:0;
+        top: 25%;
+        padding: 2rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: transform .5s;
+        form {
+            display:flex;
+            flex-direction: column;
+            gap: 30px;
+            width: 100%;
+        }
+        h2{
+            color: $color-primary;
+            font-family: sans-serif;
+
+        }
+        &.hidden {
+            transform: translateX(35vw);
+        }
+    }
+}

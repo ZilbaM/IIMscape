@@ -7,21 +7,37 @@
     <link rel="stylesheet" href="style.css">
     <title>IIMscape</title>
     <link rel="stylesheet" href="https://use.typekit.net/aau7cpb.css">
+    <script src="https://kit.fontawesome.com/e6f4bda980.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
-           <div class="code-container">
-               <div id="matrix-code"></div>
-           </div>
-        <br>
-        <select name="class-name" id="class-name" class="fill-blank">
+        <div class="code-container">
+            <div id="matrix-code"></div>
+        </div>
+        <section id="intro" class="section">
+            <img src="public/logo.svg" alt="Logo IIMscape" class="logo" id="logointro">
+            <button id="intro-btn" class="neon-btn">
+             Enter
+            </button> 
+            <div class="section hidden" id="password" >
+                <h2>Espace admin</h2>
+                <form id="admin">
+                    <input type="text" class="fill-blank" placeholder="Identifiant (épreuve 3D)">
+                    <input type="text" class="fill-blank" placeholder="Mot de passe (épreuve Création et Design)">
+                    <input type="submit" placeholder="Confirmer" class="submit">
+                </form>
+            </div>
+            <i class="fa-solid fa-key key" id="key"></i>
+        </section>
+        
+        <!-- <select name="class-name" id="class-name" class="fill-blank">
             <option value=""></option>
             <option value="class-name-false">class:ma-classe</option>
             <option value="class-name-false">className:ma-classe</option>
             <option value="class-name-false">class:"ma-classe"</option>
             <option value="class-name-true">class="ma-classe"</option>
             <option value="class-name-false">className:"ma-classe"</option>
-        </select>
+        </select> -->
 
     </main>
 
@@ -30,8 +46,8 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
-    <script src="js/script.js"></script>
     <script src="js/loader.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
