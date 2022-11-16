@@ -1,0 +1,77 @@
+.code__html{
+  color: $color-primary;
+  font-family: $font-primary;
+  font-size: 1.2rem;
+}
+
+.code__css{
+  color: white;
+  font-family: $font-primary;
+  font-size: 1.2rem;
+}
+
+.code__js{
+  color: white;
+  font-family: $font-primary;
+  font-size: 1.2rem;
+}
+
+select{
+  display: inline-flex;
+}
+
+.text-normal{
+  color: white;
+}
+
+.text-comment{
+  color: grey;
+}
+
+.exo-css{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.example-css{
+  margin: 3rem;
+  padding: 25px;
+  background-color: white;
+
+  .title{
+
+    padding: 15px;
+    border: 3px solid red;
+  }
+
+  .subtitle{
+    border-bottom: 2px solid blue;
+    color: blue;
+    margin: 15px 0;
+  }
+
+  .box{
+
+  }
+}
+
+.example-js{
+  display: flex;
+  justify-content : center;
+  align-items : center;
+  color: white;
+
+  .example1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 3rem 1rem;
+  }
+
+}
+
+.js-select{
+  color: $color-primary;
+}

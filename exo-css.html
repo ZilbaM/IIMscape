@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IIMscape</title>
+    <link rel="stylesheet" href="https://use.typekit.net/aau7cpb.css">
+</head>
+<body>
+    <main>
+
+    <section class="exo-css" id="exo-css">
+        <pre class="code__css">
+            body{
+                margin: 0;
+                padding: 25px;
+                box-sizing: border-box;
+                background-color: white;
+            }
+
+            h1{
+            <span class="text-comment">//Je veux que mon titre soit en rouge</span>
+                <select name="color-name" id="color-name" class="fill-blank">
+                <option value=""></option>
+                <option value="false">color: rouge;</option>
+                <option value="true">color: red;</option>
+                <option value="false">color: red,</option>
+                <option value="false">color: rouge!</option>
+                </select>
+                padding: 15px;
+                border: 3px solid red;
+            }
+
+            h2{
+            <span class="text-comment">//Je veux que mon texte fasse 40 pixels</span>
+                <select name="size-name" id="size-name" class="fill-blank">
+                <option value=""></option>
+                <option value="false">taille: 40px;</option>
+                <option value="false">size: 40px;</option>
+                <option value="false">font-size: 40 pixels,</option>
+                <option value="true">font-size: 40px;</option>
+                </select>
+                margin: 15px 0;
+                border-bottom: 2px solid blue;
+                color : blue;
+            }
+
+            div{
+            <span class="text-comment">//Je veux ajouter un fond de couleur vert</span>
+                <select name="background-name" id="background-name" class="fill-blank">
+                <option value=""></option>
+                <option value="false">fond: green;</option>
+                <option value="false">color: green;</option>
+                <option value="true">background-color: green;</option>
+                <option value="false">background-color: vert;</option>
+                </select>
+                <span class="text-comment">//Je veux aussi ajouter une bordure continue noire de 4 pixels</span>
+                <select name="border-name" id="border-name" class="fill-blank">
+                <option value=""></option>
+                <option value="false">border: 4px black;</option>
+                <option value="false">border: black;</option>
+                <option value="false">border: 4px continue black;</option>
+                <option value="true">border: 4px solid black;</option>
+                </select>
+            }
+        </pre>
+
+        <div class="example-css" id="example-css">
+            <h1 class="title">Mon titre</h1>
+            <h2 class="subtitle">Mon sous-titre</h2>
+
+            <div class="box">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem hic in maxime, pariatur
+                    reprehenderit similique.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/example-css.js"></script>
+
+
+</body>
+</html>

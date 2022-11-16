@@ -61,12 +61,19 @@ function createTransition () {
     let container = document.getElementById('matrix-code')
     let wrapper = container.parentElement
     wrapper.style.display = 'block'
+    let body = document.querySelector('body')
+
+    body.style.overflow = 'hidden'
+
+
     createRain(container);
     setTimeout(() => {
         fadeOut()
         setTimeout(() => {
             container.innerHTML = ''
             wrapper.style.display = 'none'
+            body.style.overflow = 'auto'
+
         }, 2000)
     }, 3000
     )
