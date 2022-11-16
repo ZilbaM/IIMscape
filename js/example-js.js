@@ -4,8 +4,6 @@ function counter(){
 
     let i = 0;
 
-
-
     counterBtn.addEventListener('click', (e) => {
         i++
         counterCount.innerHTML = "Compteur : " + i
