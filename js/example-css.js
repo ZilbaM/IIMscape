@@ -1,6 +1,11 @@
+let titleSelect = document.getElementById("color-name");
+let subtitleSelect = document.getElementById("size-name");
+let divSelect = document.getElementById("background-name");
+let divBorder = document.getElementById("border-name");
+
+
 function titleRed() {
 
-    let titleSelect = document.getElementById("color-name");
 
     const title = document.querySelector(".title");
 
@@ -20,7 +25,6 @@ function titleRed() {
 
 function subtitleSize() {
 
-    let subtitleSelect = document.getElementById("size-name");
 
     const subtitle = document.querySelector(".subtitle");
 
@@ -40,9 +44,7 @@ function subtitleSize() {
 
 function bgDiv() {
 
-    let divSelect = document.getElementById("background-name");
-    let divBorder = document.getElementById("border-name");
-
+    
     const div = document.querySelector(".box");
 
     divSelect.addEventListener('change', (event) => {
@@ -76,3 +78,30 @@ function bgDiv() {
 titleRed()
 subtitleSize()
 bgDiv()
+
+function valideCSS() {
+
+    let css1 = titleSelect.value;
+    let css2 = subtitleSelect.value;
+    let css3 = divSelect.value;
+    let css4 = divBorder.value;
+
+    console.log(css1)
+    console.log(css2)
+    console.log(css3)
+    console.log(css4)
+
+
+    if (css1 == "true" && css2 == "true" && css3 == "true" && css4 == "true"){
+        window.location.href = 'exo-js.html'
+    }else{
+        window.alert('Un ou plusieurs champs sont erronés !')
+    }
+}
+
+let redirectJs = document.querySelector('#redirect-js')
+
+redirectJs.addEventListener('click', (e) => {
+    valideCSS()
+})
+
