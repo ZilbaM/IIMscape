@@ -11,7 +11,7 @@ SASS CMD : sass --watch sass/style.scss:style.css
 - [ ] : Apparition des codes à trous (1 code à la fois)
 - [x] : Code à trou en HTML
 - [x] : Code à trou en CSS
-- [ ] : Code à trou en JS
+- [x] : Code à trou en JS
 - [ ] : Code à trou en PHP et/ou Python ?
 - [ ] : Redirection vers la seconde partie du site
 - [ ] : 2 boutons de redirection vers les épreuves 3D et Créa
