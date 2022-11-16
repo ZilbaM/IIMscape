@@ -61,9 +61,7 @@ function createTransition () {
     let container = document.getElementById('matrix-code')
     let wrapper = container.parentElement
     wrapper.style.display = 'block'
-    let body = document.querySelector('body')
 
-    body.style.overflow = 'hidden'
 
 
     createRain(container);
@@ -72,8 +70,7 @@ function createTransition () {
         setTimeout(() => {
             container.innerHTML = ''
             wrapper.style.display = 'none'
-            body.style.overflow = 'auto'
-
+            window.location.href = 'exo-html.html'
         }, 2000)
     }, 3000
     )

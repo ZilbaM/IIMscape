@@ -48,7 +48,6 @@ html, body {
 }
 
 div.code-container {
-  background-color: black;
   position: absolute;
   margin: auto;
   display:none;
@@ -163,6 +162,10 @@ div.code-container {
       }
     }
   }
+}
+
+#loaderbody {
+  overflow: hidden;
 }
 
 @keyframes drop {
