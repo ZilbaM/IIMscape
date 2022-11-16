@@ -73,6 +73,74 @@
         </pre>
     </section>
 
+    <section class="exo-css" id="exo-css">
+        <pre class="code__css">
+            body{
+                margin: 0;
+                padding: 25px;
+                box-sizing: border-box;
+                background-color: white;
+            }
+
+            h1{
+            <span class="text-comment">//Je veux que mon titre soit en rouge</span>
+                <select name="color-name" id="test" class="fill-blank">
+                <option value=""></option>
+                <option value="false">color: rouge;</option>
+                <option value="true">color: red;</option>
+                <option value="false">color: red,</option>
+                <option value="false">color: rouge!</option>
+                </select>
+                padding: 15px;
+                border: 3px solid red;
+            }
+
+            h2{
+            <span class="text-comment">//Je veux que mon texte fasse 20 pixels</span>
+                <select name="size-name" id="size-name" class="fill-blank">
+                <option value=""></option>
+                <option value="size-name-false">taille: 20px;</option>
+                <option value="size-name-false">size: 20px;</option>
+                <option value="size-name-false">font-size: 20 pixels,</option>
+                <option value="size-name-true">font-size: 20px;</option>
+                </select>
+                margin: 15px 0;
+                border-bottom: 2px solid blue;
+                color : blue;
+            }
+
+            div{
+            <span class="text-comment">//Je veux ajouter un fond de couleur vert</span>
+                <select name="background-name" id="background-name" class="fill-blank">
+                <option value=""></option>
+                <option value="background-name-false">fond: green;</option>
+                <option value="background-name-false">color: green;</option>
+                <option value="background-name-true">background-color: green;</option>
+                <option value="background-name-false">background-color: vert;</option>
+                </select>
+                <span class="text-comment">//Je veux aussi ajouter une bordure continue noire de 2 pixels</span>
+                <select name="border-name" id="border-name" class="fill-blank">
+                <option value=""></option>
+                <option value="border-name-false">border: 2px black;</option>
+                <option value="border-name-false">border: black;</option>
+                <option value="border-name-true">border: 2px continue black;</option>
+                <option value="border-name-false">border: 2px solid black;</option>
+                </select>
+            }
+        </pre>
+
+        <div class="example-css" id="example-css">
+            <h1 class="title">Mon titre</h1>
+            <h2 class="subtitle">Mon sous-titre</h2>
+
+            <div class="box">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem hic in maxime, pariatur
+                    reprehenderit similique.
+                </p>
+            </div>
+        </div>
+    </section>
     </main>
 
 
@@ -82,6 +150,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/loader.js"></script>
+    <script src="js/example-css.js"></script>
+
 
 </body>
 </html>

@@ -60,11 +60,15 @@ function fadeOut(){
 function createTransition () {
     let container = document.getElementById('matrix-code')
     let wrapper = container.parentElement
+    let body = document.querySelector('body')
+
     createRain(container);
     setTimeout(() => {
         fadeOut()
         setTimeout(() => {
             wrapper.style.display = 'none'
+            body.style.overflow = 'auto'
+
         }, 2000)
     }, 3000
     )
