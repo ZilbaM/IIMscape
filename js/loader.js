@@ -62,6 +62,9 @@ function createTransition () {
     let wrapper = container.parentElement
     let body = document.querySelector('body')
 
+    body.style.overflow = 'hidden'
+
+
     createRain(container);
     setTimeout(() => {
         fadeOut()
