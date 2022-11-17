@@ -12,7 +12,7 @@ function accessAdmin(){
         console.log(valueLogin)
         console.log(valuePassword)
 
-        if (valueLogin == "admin" && valuePassword == "mdp"){
+        if (valueLogin == "iimscape" && valuePassword == "aubrac"){
             window.location.href = 'result.html'
         }else{
             adminDenied.style.display = "flex"
