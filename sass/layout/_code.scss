@@ -1,30 +1,42 @@
-.code__html{
-  color: $color-primary;
-  font-size: 1.2rem;
-}
+
 
 .exo{
   color: white;
   font-size: 1.2rem;
   padding: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
+  //flex-direction: column;
 
   &__header{
     color: $color-primary;
     padding: 2rem;
+
+    h2{
+      font-family: $font-secondary;
+      font-weight: 500;
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
   }
 
-  &__body{
+  &__footer{
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    margin: 2rem 0;
   }
 
-  .code-css{
+
+
+  .code-css, .code-js, .code-html{
     font-family: $font-primary;
+    font-size: 1.2rem;
+  }
+
+  .code-html{
+    color: $color-primary;
   }
 
   .example-css{
@@ -49,15 +61,15 @@
 
     }
   }
-
 }
 
-.code__js{
-  color: white;
-   
-  font-size: 1.2rem;
+#exo-css{
+  .exo__body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 }
-
 
 .text-normal{
   color: white;
