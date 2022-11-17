@@ -1,0 +1,15 @@
+#message {
+    width: 100vw;
+    height: 100vh;
+    display:none;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem;
+    color: $color-primary;
+    .neon-btn{
+        display:none
+    }
+    .code-text {
+        font-size: 1.25rem;
+    }
+}
