@@ -1,4 +1,7 @@
 'use strict';
+gsap.registerPlugin('TextPlugin');
+gsap.registerPlugin('CustomEase');
+
 
 const COLUMNS    = 100;
 const CHARACTERS = 50;
@@ -53,6 +56,7 @@ function fadeOut(){
     gsap.to('#matrix-code', {
         opacity: 0,
         duration: 2,
+        
     })
 }
 
@@ -69,12 +73,41 @@ function createTransition () {
         fadeOut()
         setTimeout(() => {
             container.innerHTML = ''
-            wrapper.style.display = 'none'
-            window.location.href = 'exo-html.html'
         }, 2000)
+        setTimeout(() => {
+            wrapper.style.display = 'none'
+            document.getElementById('message').style.display = 'flex'
+            loadText()
+            //window.location.href = 'exo-html.html'
+        }, 1500)
     }, 3000
     )
     
+}
+
+const loadText = () => {
+    // const replace = 'Bla bla'
+// gsap.to('#code', {
+//     duration: 3,
+//     text: replace,
+//     ease: 'none'
+// })
+    const tl = gsap.timeline()
+
+    const title = "Bienvenue à toi jeune hacker !"
+    const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+    tl.to('.code-title', {
+        text: title,
+        duration: 2
+    }).to('.code-text', {
+        text: {
+            value: text,
+        },
+        duration: Math.floor(text.length/25),
+        ease: CustomEase.create("custom", "M0,0,C0.047,0.093,0.206,0.398,0.305,0.519,0.305,0.519,0.34,0.466,0.34,0.466,0.34,0.466,0.412,0.656,0.412,0.656,0.658,0.946,0.865,1,1,1")
+    }, '>')
+
 }
 
 
