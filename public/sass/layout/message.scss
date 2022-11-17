@@ -4,12 +4,13 @@
     display:none;
     flex-direction: column;
     gap: 20px;
-    padding: 2rem;
+    padding: 4rem;
     color: $color-primary;
     .neon-btn{
         display:none
     }
     .code-text {
         font-size: 1.25rem;
+        margin: 1.5rem 0;
     }
 }

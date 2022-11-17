@@ -15,8 +15,7 @@ introBtn.addEventListener('click', () => {
         delay: 1,
     })
     setTimeout(() => {
-        matrixSound.paused();
-        bgMusic.paused();
+        matrixSound.pause();
 
         document.getElementById('intro').style.display='none'
     }, 5000)

@@ -21,11 +21,14 @@ html, body {
   background-position: center;
 }
 
-@font-face {
-  font-family: "slovic-demo";
-  src: url("../../public/fonts/Slovic_Demo-SansSerif.otf") format("opentype");
-}
+
 
 main{
   position: relative;
+}
+
+@font-face {
+  font-family: "slovic-demo";
+  src: local("slovic-demo"),
+  url("./public/fonts/Slovic_Demo-Serif.otf") format("opentype");
 }

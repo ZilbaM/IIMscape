@@ -6,7 +6,6 @@ gsap.registerPlugin('CustomEase');
 const COLUMNS    = 100;
 const CHARACTERS = 50;
 
-
 function getCharCode() {
     let code = Math.floor(Math.random() * 94 + 33);
     return (code === 64) ? 47 : code;
@@ -49,7 +48,7 @@ function createRain(container) {
 
         column.className = `code-column column-size-${size} code-${i}`;
         container.appendChild(column);
-        
+
     }
 }
 
@@ -57,7 +56,7 @@ function fadeOut(){
     gsap.to('#matrix-code', {
         opacity: 0,
         duration: 2,
-        
+
     })
 }
 
@@ -67,21 +66,23 @@ function createTransition () {
     let wrapper = container.parentElement
     wrapper.style.display = 'block'
 
+
+
     createRain(container);
     setTimeout(() => {
-        fadeOut()
-        setTimeout(() => {
-            container.innerHTML = ''
-        }, 2000)
-        setTimeout(() => {
-            wrapper.style.display = 'none'
-            document.getElementById('message').style.display = 'flex'
-            loadText()
-            //window.location.href = 'exo-html.html'
-        }, 1500)
-    }, 3000
+            fadeOut()
+            setTimeout(() => {
+                container.innerHTML = ''
+            }, 2000)
+            setTimeout(() => {
+                wrapper.style.display = 'none'
+                document.getElementById('message').style.display = 'flex'
+                loadText()
+                //window.location.href = 'exo-html.html'
+            }, 1500)
+        }, 3000
     )
-    
+
 }
 
 const loadText = () => {
@@ -99,8 +100,16 @@ const loadText = () => {
     })
 
     const title = "Ordre de misssion (nom de code : IIMscape)"
-    const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
+    const text = "Bienvenue à toi jeune Hackeur. Alors comme ça tu as raté les inscriptions de l’IIM ? C’est bien" +
+        " dommage. Mais rassures-toi tout n’est pas perdu ! Nous allons te donner un petit coup de main. Qui" +
+        " sommes-nous te demande-tu ? Considère-nous comme une team d’Hackeurs prête à t’aider ;) <br><br> Si tu veux" +
+        " avoir une chance de pouvoir intégrer l’IIM il va falloir que tu t’infiltres dans le bâtiment et atteindre" +
+        " une certaine salle. Dans cette salle se trouvera une boîte contenant les dossiers de tous les futurs" +
+        " étudiants, une fois infiltré, il suffira que tu ajoutes le tien à la pile. Tu dois sûrement te demander" +
+        " comment infiltrer le campus. Pas de panique, dans la boîte dont eu à scanné le QR code se trouve un pass" +
+        " d’accès, tu pourras ainsi t’infiltré sans soucis. <br><br> Cependant, nous n’allons pas te donner toutes" +
+        " ses informations comme ça, il va falloir faire tes preuves. Réussis nos épreuves et nous te donneront" +
+        " peut-être les infos que tu recherches ;D. Montres toi digne de nous rejoindre ! "
     tl.to('.code-title', {
         text: title,
         duration: 2
@@ -108,11 +117,8 @@ const loadText = () => {
         text: {
             value: text,
         },
-        duration: Math.floor(text.length/25),
+        duration: Math.floor(text.length/30),
         ease: CustomEase.create("custom", "M0,0,C0.047,0.093,0.206,0.398,0.305,0.519,0.305,0.519,0.34,0.466,0.34,0.466,0.34,0.466,0.412,0.656,0.412,0.656,0.658,0.946,0.865,1,1,1")
     }, '>')
 
 }
-
-
-

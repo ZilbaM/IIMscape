@@ -23,14 +23,14 @@ html, body {
   background-position: center;
 }
 
-@font-face {
-  font-family: "slovic-demo";
-  src: url("../../public/fonts/Slovic_Demo-SansSerif.otf") format("opentype");
-}
 main {
   position: relative;
 }
 
+@font-face {
+  font-family: "slovic-demo";
+  src: local("slovic-demo"), url("./public/fonts/Slovic_Demo-Serif.otf") format("opentype");
+}
 .fill-blank {
   box-sizing: border-box;
   display: inline-flex;
@@ -202,502 +202,502 @@ div.code-container div#matrix-code p.code-column span.code-size-60 {
 div.code-container div#matrix-code p.code-0 {
   position: absolute;
   left: 0%;
-  animation: drop 6817ms linear 677ms;
+  animation: drop 7572ms linear 376ms;
 }
 div.code-container div#matrix-code p.code-1 {
   position: absolute;
   left: 1%;
-  animation: drop 10687ms linear 912ms;
+  animation: drop 5824ms linear 171ms;
 }
 div.code-container div#matrix-code p.code-2 {
   position: absolute;
   left: 2%;
-  animation: drop 12859ms linear 182ms;
+  animation: drop 6172ms linear 466ms;
 }
 div.code-container div#matrix-code p.code-3 {
   position: absolute;
   left: 3%;
-  animation: drop 14132ms linear 160ms;
+  animation: drop 13217ms linear 893ms;
 }
 div.code-container div#matrix-code p.code-4 {
   position: absolute;
   left: 4%;
-  animation: drop 12427ms linear 268ms;
+  animation: drop 14926ms linear 903ms;
 }
 div.code-container div#matrix-code p.code-5 {
   position: absolute;
   left: 5%;
-  animation: drop 5316ms linear 262ms;
+  animation: drop 8207ms linear 617ms;
 }
 div.code-container div#matrix-code p.code-6 {
   position: absolute;
   left: 6%;
-  animation: drop 9199ms linear 500ms;
+  animation: drop 12098ms linear 406ms;
 }
 div.code-container div#matrix-code p.code-7 {
   position: absolute;
   left: 7%;
-  animation: drop 3857ms linear 79ms;
+  animation: drop 1877ms linear 843ms;
 }
 div.code-container div#matrix-code p.code-8 {
   position: absolute;
   left: 8%;
-  animation: drop 3911ms linear 457ms;
+  animation: drop 8994ms linear 294ms;
 }
 div.code-container div#matrix-code p.code-9 {
   position: absolute;
   left: 9%;
-  animation: drop 7012ms linear 134ms;
+  animation: drop 12859ms linear 308ms;
 }
 div.code-container div#matrix-code p.code-10 {
   position: absolute;
   left: 10%;
-  animation: drop 5893ms linear 816ms;
+  animation: drop 1857ms linear 354ms;
 }
 div.code-container div#matrix-code p.code-11 {
   position: absolute;
   left: 11%;
-  animation: drop 4197ms linear 945ms;
+  animation: drop 11442ms linear 269ms;
 }
 div.code-container div#matrix-code p.code-12 {
   position: absolute;
   left: 12%;
-  animation: drop 2440ms linear 363ms;
+  animation: drop 8271ms linear 689ms;
 }
 div.code-container div#matrix-code p.code-13 {
   position: absolute;
   left: 13%;
-  animation: drop 8972ms linear 82ms;
+  animation: drop 5495ms linear 603ms;
 }
 div.code-container div#matrix-code p.code-14 {
   position: absolute;
   left: 14%;
-  animation: drop 12409ms linear 515ms;
+  animation: drop 11829ms linear 306ms;
 }
 div.code-container div#matrix-code p.code-15 {
   position: absolute;
   left: 15%;
-  animation: drop 5386ms linear 935ms;
+  animation: drop 13253ms linear 119ms;
 }
 div.code-container div#matrix-code p.code-16 {
   position: absolute;
   left: 16%;
-  animation: drop 11976ms linear 708ms;
+  animation: drop 2699ms linear 613ms;
 }
 div.code-container div#matrix-code p.code-17 {
   position: absolute;
   left: 17%;
-  animation: drop 2242ms linear 804ms;
+  animation: drop 12805ms linear 128ms;
 }
 div.code-container div#matrix-code p.code-18 {
   position: absolute;
   left: 18%;
-  animation: drop 5433ms linear 674ms;
+  animation: drop 5093ms linear 123ms;
 }
 div.code-container div#matrix-code p.code-19 {
   position: absolute;
   left: 19%;
-  animation: drop 14556ms linear 292ms;
+  animation: drop 13085ms linear 606ms;
 }
 div.code-container div#matrix-code p.code-20 {
   position: absolute;
   left: 20%;
-  animation: drop 7196ms linear 146ms;
+  animation: drop 14908ms linear 180ms;
 }
 div.code-container div#matrix-code p.code-21 {
   position: absolute;
   left: 21%;
-  animation: drop 13803ms linear 87ms;
+  animation: drop 12699ms linear 214ms;
 }
 div.code-container div#matrix-code p.code-22 {
   position: absolute;
   left: 22%;
-  animation: drop 6563ms linear 190ms;
+  animation: drop 11658ms linear 353ms;
 }
 div.code-container div#matrix-code p.code-23 {
   position: absolute;
   left: 23%;
-  animation: drop 13957ms linear 120ms;
+  animation: drop 8538ms linear 428ms;
 }
 div.code-container div#matrix-code p.code-24 {
   position: absolute;
   left: 24%;
-  animation: drop 3926ms linear 342ms;
+  animation: drop 2660ms linear 468ms;
 }
 div.code-container div#matrix-code p.code-25 {
   position: absolute;
   left: 25%;
-  animation: drop 5048ms linear 312ms;
+  animation: drop 7807ms linear 699ms;
 }
 div.code-container div#matrix-code p.code-26 {
   position: absolute;
   left: 26%;
-  animation: drop 12440ms linear 658ms;
+  animation: drop 10070ms linear 370ms;
 }
 div.code-container div#matrix-code p.code-27 {
   position: absolute;
   left: 27%;
-  animation: drop 14299ms linear 372ms;
+  animation: drop 14530ms linear 465ms;
 }
 div.code-container div#matrix-code p.code-28 {
   position: absolute;
   left: 28%;
-  animation: drop 1311ms linear 601ms;
+  animation: drop 13323ms linear 332ms;
 }
 div.code-container div#matrix-code p.code-29 {
   position: absolute;
   left: 29%;
-  animation: drop 14163ms linear 213ms;
+  animation: drop 1025ms linear 89ms;
 }
 div.code-container div#matrix-code p.code-30 {
   position: absolute;
   left: 30%;
-  animation: drop 4458ms linear 215ms;
+  animation: drop 3607ms linear 509ms;
 }
 div.code-container div#matrix-code p.code-31 {
   position: absolute;
   left: 31%;
-  animation: drop 5006ms linear 398ms;
+  animation: drop 10769ms linear 637ms;
 }
 div.code-container div#matrix-code p.code-32 {
   position: absolute;
   left: 32%;
-  animation: drop 5448ms linear 347ms;
+  animation: drop 4210ms linear 904ms;
 }
 div.code-container div#matrix-code p.code-33 {
   position: absolute;
   left: 33%;
-  animation: drop 11446ms linear 436ms;
+  animation: drop 11814ms linear 432ms;
 }
 div.code-container div#matrix-code p.code-34 {
   position: absolute;
   left: 34%;
-  animation: drop 9818ms linear 607ms;
+  animation: drop 11308ms linear 976ms;
 }
 div.code-container div#matrix-code p.code-35 {
   position: absolute;
   left: 35%;
-  animation: drop 3644ms linear 1000ms;
+  animation: drop 14125ms linear 9ms;
 }
 div.code-container div#matrix-code p.code-36 {
   position: absolute;
   left: 36%;
-  animation: drop 8233ms linear 781ms;
+  animation: drop 11257ms linear 975ms;
 }
 div.code-container div#matrix-code p.code-37 {
   position: absolute;
   left: 37%;
-  animation: drop 6973ms linear 302ms;
+  animation: drop 2757ms linear 414ms;
 }
 div.code-container div#matrix-code p.code-38 {
   position: absolute;
   left: 38%;
-  animation: drop 3331ms linear 119ms;
+  animation: drop 10373ms linear 490ms;
 }
 div.code-container div#matrix-code p.code-39 {
   position: absolute;
   left: 39%;
-  animation: drop 4777ms linear 887ms;
+  animation: drop 3902ms linear 247ms;
 }
 div.code-container div#matrix-code p.code-40 {
   position: absolute;
   left: 40%;
-  animation: drop 4395ms linear 401ms;
+  animation: drop 8036ms linear 344ms;
 }
 div.code-container div#matrix-code p.code-41 {
   position: absolute;
   left: 41%;
-  animation: drop 4283ms linear 836ms;
+  animation: drop 9308ms linear 400ms;
 }
 div.code-container div#matrix-code p.code-42 {
   position: absolute;
   left: 42%;
-  animation: drop 2471ms linear 465ms;
+  animation: drop 8556ms linear 380ms;
 }
 div.code-container div#matrix-code p.code-43 {
   position: absolute;
   left: 43%;
-  animation: drop 13493ms linear 358ms;
+  animation: drop 8201ms linear 2ms;
 }
 div.code-container div#matrix-code p.code-44 {
   position: absolute;
   left: 44%;
-  animation: drop 14819ms linear 204ms;
+  animation: drop 14055ms linear 715ms;
 }
 div.code-container div#matrix-code p.code-45 {
   position: absolute;
   left: 45%;
-  animation: drop 3545ms linear 534ms;
+  animation: drop 11584ms linear 314ms;
 }
 div.code-container div#matrix-code p.code-46 {
   position: absolute;
   left: 46%;
-  animation: drop 8032ms linear 769ms;
+  animation: drop 1036ms linear 146ms;
 }
 div.code-container div#matrix-code p.code-47 {
   position: absolute;
   left: 47%;
-  animation: drop 6334ms linear 251ms;
+  animation: drop 12790ms linear 217ms;
 }
 div.code-container div#matrix-code p.code-48 {
   position: absolute;
   left: 48%;
-  animation: drop 8459ms linear 260ms;
+  animation: drop 3416ms linear 676ms;
 }
 div.code-container div#matrix-code p.code-49 {
   position: absolute;
   left: 49%;
-  animation: drop 4970ms linear 334ms;
+  animation: drop 9504ms linear 319ms;
 }
 div.code-container div#matrix-code p.code-50 {
   position: absolute;
   left: 50%;
-  animation: drop 3238ms linear 114ms;
+  animation: drop 12497ms linear 580ms;
 }
 div.code-container div#matrix-code p.code-51 {
   position: absolute;
   left: 51%;
-  animation: drop 1504ms linear 533ms;
+  animation: drop 4441ms linear 384ms;
 }
 div.code-container div#matrix-code p.code-52 {
   position: absolute;
   left: 52%;
-  animation: drop 6656ms linear 70ms;
+  animation: drop 8118ms linear 72ms;
 }
 div.code-container div#matrix-code p.code-53 {
   position: absolute;
   left: 53%;
-  animation: drop 5520ms linear 794ms;
+  animation: drop 13586ms linear 836ms;
 }
 div.code-container div#matrix-code p.code-54 {
   position: absolute;
   left: 54%;
-  animation: drop 1379ms linear 558ms;
+  animation: drop 3414ms linear 886ms;
 }
 div.code-container div#matrix-code p.code-55 {
   position: absolute;
   left: 55%;
-  animation: drop 4462ms linear 812ms;
+  animation: drop 8676ms linear 598ms;
 }
 div.code-container div#matrix-code p.code-56 {
   position: absolute;
   left: 56%;
-  animation: drop 7358ms linear 95ms;
+  animation: drop 5243ms linear 814ms;
 }
 div.code-container div#matrix-code p.code-57 {
   position: absolute;
   left: 57%;
-  animation: drop 8627ms linear 504ms;
+  animation: drop 7552ms linear 197ms;
 }
 div.code-container div#matrix-code p.code-58 {
   position: absolute;
   left: 58%;
-  animation: drop 10884ms linear 139ms;
+  animation: drop 11178ms linear 350ms;
 }
 div.code-container div#matrix-code p.code-59 {
   position: absolute;
   left: 59%;
-  animation: drop 1352ms linear 857ms;
+  animation: drop 8960ms linear 597ms;
 }
 div.code-container div#matrix-code p.code-60 {
   position: absolute;
   left: 60%;
-  animation: drop 1872ms linear 178ms;
+  animation: drop 2092ms linear 241ms;
 }
 div.code-container div#matrix-code p.code-61 {
   position: absolute;
   left: 61%;
-  animation: drop 1237ms linear 840ms;
+  animation: drop 14044ms linear 845ms;
 }
 div.code-container div#matrix-code p.code-62 {
   position: absolute;
   left: 62%;
-  animation: drop 4114ms linear 820ms;
+  animation: drop 2498ms linear 919ms;
 }
 div.code-container div#matrix-code p.code-63 {
   position: absolute;
   left: 63%;
-  animation: drop 1982ms linear 243ms;
+  animation: drop 13360ms linear 720ms;
 }
 div.code-container div#matrix-code p.code-64 {
   position: absolute;
   left: 64%;
-  animation: drop 14159ms linear 170ms;
+  animation: drop 13216ms linear 822ms;
 }
 div.code-container div#matrix-code p.code-65 {
   position: absolute;
   left: 65%;
-  animation: drop 5326ms linear 827ms;
+  animation: drop 13976ms linear 92ms;
 }
 div.code-container div#matrix-code p.code-66 {
   position: absolute;
   left: 66%;
-  animation: drop 6118ms linear 616ms;
+  animation: drop 14912ms linear 986ms;
 }
 div.code-container div#matrix-code p.code-67 {
   position: absolute;
   left: 67%;
-  animation: drop 14110ms linear 242ms;
+  animation: drop 8556ms linear 149ms;
 }
 div.code-container div#matrix-code p.code-68 {
   position: absolute;
   left: 68%;
-  animation: drop 11684ms linear 397ms;
+  animation: drop 10479ms linear 294ms;
 }
 div.code-container div#matrix-code p.code-69 {
   position: absolute;
   left: 69%;
-  animation: drop 12325ms linear 788ms;
+  animation: drop 2049ms linear 795ms;
 }
 div.code-container div#matrix-code p.code-70 {
   position: absolute;
   left: 70%;
-  animation: drop 2406ms linear 745ms;
+  animation: drop 11430ms linear 246ms;
 }
 div.code-container div#matrix-code p.code-71 {
   position: absolute;
   left: 71%;
-  animation: drop 5111ms linear 331ms;
+  animation: drop 5249ms linear 740ms;
 }
 div.code-container div#matrix-code p.code-72 {
   position: absolute;
   left: 72%;
-  animation: drop 5285ms linear 733ms;
+  animation: drop 13554ms linear 579ms;
 }
 div.code-container div#matrix-code p.code-73 {
   position: absolute;
   left: 73%;
-  animation: drop 11296ms linear 599ms;
+  animation: drop 4493ms linear 487ms;
 }
 div.code-container div#matrix-code p.code-74 {
   position: absolute;
   left: 74%;
-  animation: drop 10558ms linear 24ms;
+  animation: drop 5380ms linear 45ms;
 }
 div.code-container div#matrix-code p.code-75 {
   position: absolute;
   left: 75%;
-  animation: drop 2091ms linear 879ms;
+  animation: drop 1347ms linear 916ms;
 }
 div.code-container div#matrix-code p.code-76 {
   position: absolute;
   left: 76%;
-  animation: drop 2586ms linear 739ms;
+  animation: drop 8647ms linear 309ms;
 }
 div.code-container div#matrix-code p.code-77 {
   position: absolute;
   left: 77%;
-  animation: drop 13136ms linear 687ms;
+  animation: drop 11283ms linear 249ms;
 }
 div.code-container div#matrix-code p.code-78 {
   position: absolute;
   left: 78%;
-  animation: drop 1103ms linear 746ms;
+  animation: drop 12096ms linear 719ms;
 }
 div.code-container div#matrix-code p.code-79 {
   position: absolute;
   left: 79%;
-  animation: drop 1136ms linear 727ms;
+  animation: drop 6775ms linear 337ms;
 }
 div.code-container div#matrix-code p.code-80 {
   position: absolute;
   left: 80%;
-  animation: drop 9567ms linear 91ms;
+  animation: drop 13031ms linear 703ms;
 }
 div.code-container div#matrix-code p.code-81 {
   position: absolute;
   left: 81%;
-  animation: drop 13453ms linear 788ms;
+  animation: drop 1501ms linear 107ms;
 }
 div.code-container div#matrix-code p.code-82 {
   position: absolute;
   left: 82%;
-  animation: drop 7264ms linear 303ms;
+  animation: drop 6592ms linear 982ms;
 }
 div.code-container div#matrix-code p.code-83 {
   position: absolute;
   left: 83%;
-  animation: drop 5505ms linear 875ms;
+  animation: drop 7260ms linear 29ms;
 }
 div.code-container div#matrix-code p.code-84 {
   position: absolute;
   left: 84%;
-  animation: drop 4119ms linear 133ms;
+  animation: drop 14674ms linear 821ms;
 }
 div.code-container div#matrix-code p.code-85 {
   position: absolute;
   left: 85%;
-  animation: drop 3922ms linear 385ms;
+  animation: drop 14694ms linear 830ms;
 }
 div.code-container div#matrix-code p.code-86 {
   position: absolute;
   left: 86%;
-  animation: drop 6755ms linear 503ms;
+  animation: drop 5664ms linear 298ms;
 }
 div.code-container div#matrix-code p.code-87 {
   position: absolute;
   left: 87%;
-  animation: drop 11561ms linear 992ms;
+  animation: drop 9197ms linear 155ms;
 }
 div.code-container div#matrix-code p.code-88 {
   position: absolute;
   left: 88%;
-  animation: drop 7748ms linear 829ms;
+  animation: drop 14852ms linear 446ms;
 }
 div.code-container div#matrix-code p.code-89 {
   position: absolute;
   left: 89%;
-  animation: drop 11641ms linear 621ms;
+  animation: drop 13306ms linear 700ms;
 }
 div.code-container div#matrix-code p.code-90 {
   position: absolute;
   left: 90%;
-  animation: drop 2317ms linear 874ms;
+  animation: drop 6328ms linear 894ms;
 }
 div.code-container div#matrix-code p.code-91 {
   position: absolute;
   left: 91%;
-  animation: drop 5240ms linear 311ms;
+  animation: drop 5406ms linear 939ms;
 }
 div.code-container div#matrix-code p.code-92 {
   position: absolute;
   left: 92%;
-  animation: drop 2580ms linear 720ms;
+  animation: drop 12570ms linear 426ms;
 }
 div.code-container div#matrix-code p.code-93 {
   position: absolute;
   left: 93%;
-  animation: drop 5952ms linear 234ms;
+  animation: drop 14369ms linear 690ms;
 }
 div.code-container div#matrix-code p.code-94 {
   position: absolute;
   left: 94%;
-  animation: drop 13400ms linear 618ms;
+  animation: drop 1780ms linear 508ms;
 }
 div.code-container div#matrix-code p.code-95 {
   position: absolute;
   left: 95%;
-  animation: drop 4184ms linear 198ms;
+  animation: drop 9151ms linear 14ms;
 }
 div.code-container div#matrix-code p.code-96 {
   position: absolute;
   left: 96%;
-  animation: drop 6547ms linear 774ms;
+  animation: drop 6950ms linear 429ms;
 }
 div.code-container div#matrix-code p.code-97 {
   position: absolute;
   left: 97%;
-  animation: drop 8743ms linear 407ms;
+  animation: drop 2785ms linear 555ms;
 }
 div.code-container div#matrix-code p.code-98 {
   position: absolute;
   left: 98%;
-  animation: drop 1207ms linear 40ms;
+  animation: drop 3583ms linear 70ms;
 }
 div.code-container div#matrix-code p.code-99 {
   position: absolute;
   left: 99%;
-  animation: drop 8416ms linear 240ms;
+  animation: drop 10863ms linear 908ms;
 }
 
 #loaderbody {
@@ -722,7 +722,7 @@ div.code-container div#matrix-code p.code-99 {
   padding: 2rem;
 }
 .exo__header h2 {
-  font-family: slovic-demo;
+  font-family: slovic-demo, sans-serif;
   font-weight: 500;
   font-size: 3rem;
   margin-bottom: 1.5rem;
@@ -981,6 +981,23 @@ div.code-container div#matrix-code p.code-99 {
   text-align: center;
   text-transform: uppercase;
   z-index: 1;
+}
+
+#message {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  padding: 4rem;
+  color: #F08208;
+}
+#message .neon-btn {
+  display: none;
+}
+#message .code-text {
+  font-size: 1.25rem;
+  margin: 1.5rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */
