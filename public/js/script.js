@@ -8,14 +8,33 @@ gsap.registerPlugin('TextPlugin');
 // })
 
 let introBtn = document.getElementById('intro-btn')
-const audio = document.querySelector("audio");
+const matrixSound = document.querySelector("#matrix-sound");
+
+const bgMusic = document.querySelector(".bg-music");
+
+let soundIcon = document.querySelector("#sound-icon")
+
+
+soundIcon.addEventListener("click", () => {
+
+    if (bgMusic.paused){
+        bgMusic.volume = 0.3;
+        bgMusic.play();
+    } else{
+        bgMusic.pause();
+    }
+    soundIcon.classList.toggle('fa-volume-high')
+    soundIcon.classList.toggle('fa-volume-xmark')
+
+});
+
 
 
 introBtn.addEventListener('click', () => {
     createTransition()
-    if (audio.paused) {
-        audio.volume = 0.2;
-        audio.play();
+    if (matrixSound.paused) {
+        matrixSound.volume = 1;
+        matrixSound.play();
 
     }
     gsap.to('#intro', {
@@ -24,7 +43,9 @@ introBtn.addEventListener('click', () => {
         delay: 1,
     })
     setTimeout(() => {
-        audio.paused();
+        matrixSound.paused();
+        bgMusic.paused();
+
         document.getElementById('intro').style.display='none'
     }, 5000)
 })

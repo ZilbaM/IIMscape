@@ -13,7 +13,7 @@ function accessAdmin(){
         console.log(valuePassword)
 
         if (valueLogin == "admin" && valuePassword == "mdp"){
-            window.location.href = 'index.html'
+            window.location.href = 'result.html'
         }else{
             adminDenied.style.display = "flex"
             setTimeout(() => {

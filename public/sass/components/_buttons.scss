@@ -41,3 +41,19 @@
     text-decoration: underline;
   }
 }
+
+
+#sound-icon {
+  color: #F08208;
+  background: transparent;
+  position:absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  opacity: 0.6;
+  z-index: 100;
+  &:hover{
+    opacity: 1;
+  }
+}
