@@ -3,6 +3,7 @@
 const COLUMNS    = 100;
 const CHARACTERS = 50;
 
+
 function getCharCode() {
     let code = Math.floor(Math.random() * 94 + 33);
     return (code === 64) ? 47 : code;
@@ -61,8 +62,6 @@ function createTransition () {
     let container = document.getElementById('matrix-code')
     let wrapper = container.parentElement
     wrapper.style.display = 'block'
-
-
 
     createRain(container);
     setTimeout(() => {

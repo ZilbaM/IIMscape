@@ -8,15 +8,23 @@ gsap.registerPlugin('TextPlugin');
 // })
 
 let introBtn = document.getElementById('intro-btn')
+const audio = document.querySelector("audio");
+
 
 introBtn.addEventListener('click', () => {
     createTransition()
+    if (audio.paused) {
+        audio.volume = 0.2;
+        audio.play();
+
+    }
     gsap.to('#intro', {
         opacity: 0,
         duration: 3,
         delay: 1,
     })
     setTimeout(() => {
+        audio.paused();
         document.getElementById('intro').style.display='none'
     }, 5000)
 })
