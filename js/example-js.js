@@ -64,7 +64,7 @@ function valideJS() {
 
 
     if (js1 == "true" && js2 == "true" && js3 == "true" && js4 == "true"){
-        window.location.href = 'index.html'
+        window.location.href = 'crea-3d.html'
     }else{
         window.alert('Un ou plusieurs champs sont erronés !')
     }
