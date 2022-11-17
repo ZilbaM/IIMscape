@@ -31,16 +31,8 @@ gsap.to('#logointro', {
     duration: 1,
     delay: 4
 })
-
-const validate = (e) => {
-    e.preventDefault();
-    console.log(e.target.value)
-}
-
 const key = document.getElementById('key')
 
 key.addEventListener('click', () => {
     document.getElementById('password').classList.toggle('hidden')
 })
-
-document.getElementById('admin').addEventListener('submit', validate)
