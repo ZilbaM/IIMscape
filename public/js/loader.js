@@ -100,16 +100,16 @@ const loadText = () => {
     })
 
     const title = "Ordre de misssion (nom de code : IIMscape)"
-    const text = "Bienvenue à toi jeune Hackeur. Alors comme ça tu as raté les inscriptions de l’IIM ? C’est bien" +
+    const text = "Bienvenue à toi jeune hackeur. Alors comme ça tu as raté les inscriptions de l’IIM ? C’est bien" +
         " dommage. Mais rassures-toi tout n’est pas perdu ! Nous allons te donner un petit coup de main. Qui" +
-        " sommes-nous te demande-tu ? Considère-nous comme une team d’Hackeurs prête à t’aider ;) <br><br> Si tu veux" +
-        " avoir une chance de pouvoir intégrer l’IIM il va falloir que tu t’infiltres dans le bâtiment et atteindre" +
-        " une certaine salle. Dans cette salle se trouvera une boîte contenant les dossiers de tous les futurs" +
-        " étudiants, une fois infiltré, il suffira que tu ajoutes le tien à la pile. Tu dois sûrement te demander" +
-        " comment infiltrer le campus. Pas de panique, dans la boîte dont eu à scanné le QR code se trouve un pass" +
-        " d’accès, tu pourras ainsi t’infiltré sans soucis. <br><br> Cependant, nous n’allons pas te donner toutes" +
-        " ses informations comme ça, il va falloir faire tes preuves. Réussis nos épreuves et nous te donneront" +
-        " peut-être les infos que tu recherches ;D. Montres toi digne de nous rejoindre ! "
+        " sommes-nous te demandes-tu ? Considère-nous comme une team d'hackeurs prête à t’aider ;) <br><br> Si tu veux" +
+        " une chance de pouvoir intégrer l’IIM il va falloir que tu t’infiltres dans le bâtiment et atteindre" +
+        " une certaine salle. Dans cette salle se trouve une boîte contenant les dossiers de tous les futurs" +
+        " étudiants. Une fois infiltré, il suffira que tu ajoutes le tien à la pile de dossiers. Tu dois sûrement te demander" +
+        " comment infiltrer le campus. Pas de panique, dans la boîte dont tu as scanné le QR code se trouve un pass" +
+        " d’accès au batiment, tu pourras ainsi t’infiltrer sans soucis. <br><br> Cependant, nous n’allons pas te donner toutes" +
+        " ces informations comme ça, il va falloir faire tes preuves. Réussis nos épreuves et nous te donnerons" +
+        " peut-être les informations que tu recherches ;D. Montres toi digne de nous rejoindre ! "
     tl.to('.code-title', {
         text: title,
         duration: 2
